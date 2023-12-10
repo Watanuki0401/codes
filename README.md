@@ -1,6 +1,5 @@
 # Memo
 
----
 
 ## remove command hint
 ```console
