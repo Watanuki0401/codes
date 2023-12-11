@@ -10,3 +10,14 @@ rm -d -f -r <dir_name>
 `-f`で強制削除  
 `-r`で子ディレクトリも削除（再帰的実行）  
 This command is to remove all at directory.
+
+## Init nextjs
+必要条件：node
+```console
+npx create-next-app <app_name>
+```
+この後の質問は好きに答えてください.
+
+```console
+npx run dev
+```
