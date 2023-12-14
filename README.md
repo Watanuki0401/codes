@@ -2,7 +2,7 @@
 
 
 ## remove command hint
-```console
+```consolecod
 rm -d -f -r <dir_name>
 ```
 このコマンドはあるディレクトリを配下構造もろとも消すコマンドである。  

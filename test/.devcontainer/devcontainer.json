@@ -20,8 +20,14 @@
     "customizations": {
             "vscode": {
                 "extensions": [
-                    "MS-CEINTL.vscode-language-pack-ja"
-                ]
+					"MS-CEINTL.vscode-language-pack-ja",
+					"bradlc.vscode-tailwindcss"
+				],
+				"settings": {
+					"files.associations": {
+						"*.css": "tailwindcss"
+					  }
+				}
             }
     }
 
