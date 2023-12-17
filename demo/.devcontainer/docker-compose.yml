@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  nodes:
+    image: node:21.4.0-bullseye
+    working_dir: /app
+    ports:
+      - 3000:3000
+    volumes:
+      - ../app:/app
+    tty: true

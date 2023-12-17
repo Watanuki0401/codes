@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  nodes:
+    build:
+      context: .
+      dockerfile: Dockerfile.node
+    volumes:
+      - ../sites:/usr/src/app
+    tty: true
+
+  proxys:
+    build:
+      context: ../proxy
+      dockerfile: Dockerfile.proxy
+    ports:
+      - 80:80

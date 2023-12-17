@@ -21,3 +21,13 @@ npx create-next-app <app_name>
 ```console
 npx run dev
 ```
+
+## devcontainer hint
+`name`:開発コンテナ名  
+`dockerComposeFile`:オーケストレーションに使用するファイルを指定  
+`service`:*.ymlで宣言したサービスに接続するサービス名を指定  
+`workspaceFolder`:スタートディレクトリの設定  
+`customizations`:様々有  
+* `vscode`:vscode周りの設定
+    * `extensions`:拡張機能
+    * `settings`:settings.jsonと同様
