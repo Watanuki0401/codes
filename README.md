@@ -31,3 +31,9 @@ npx run dev
 * `vscode`:vscode周りの設定
     * `extensions`:拡張機能
     * `settings`:settings.jsonと同様
+
+
+### docekr-default bash
+```
+\[\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ \[\]
+```

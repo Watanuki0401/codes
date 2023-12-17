@@ -1,3 +1,1 @@
 FROM node:21.4.0-bullseye
-
-WORKDIR /usr/src/app

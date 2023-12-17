@@ -2,5 +2,21 @@
     "name": "next.js webapp",
     "dockerComposeFile": "docker-compose.yml",
     "service": "nodes",
-    "workspaceFolder": "/usr/src/app"
+    "workspaceFolder": "/workspace/codes/webapps01/sites",
+
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "MS-CEINTL.vscode-language-pack-ja",
+                "bradlc.vscode-tailwindcss"
+            ],
+            "settings": {
+                "files.associations": {
+                    "*.css": "tailwindcss"
+                  }
+            }
+        }
+    },
+
+    "remoteUser": "node"
 }

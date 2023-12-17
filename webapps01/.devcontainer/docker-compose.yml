@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile.node
     volumes:
-      - ../sites:/usr/src/app
+      - ../../../codes:/workspace/codes
     tty: true
 
   proxys:
